@@ -6,13 +6,15 @@ num_list = []
 # Ask for user input
 for ask in range(1,11):
     num = float(input(f"Enter number {ask}: "))
+    num_list.append(num)
 
 # Make A list of duplicates
 dup_nums = []
 
 # Get the number that duplicates
-if num_list not in dup_nums:
-    dup_nums.append(num_list)
+for nums in num_list:
+    if num_list.count(nums) > 1:
+        dup_nums.append(nums)
     
 # Print the numbers that duplicates
 print(dup_nums)
