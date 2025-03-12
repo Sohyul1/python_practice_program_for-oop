@@ -2,5 +2,5 @@
 # Make a count variable 
 # Make an empty list
 # Ask user for input (break if input is invalid)
-# Append the numbers in the list
+# Append the numbers into the list
 # Print the sorted list
