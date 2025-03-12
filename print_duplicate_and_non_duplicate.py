@@ -3,8 +3,9 @@
 # Display "Duplicate" after input when the inputted number have duplicate.
 
 # Make a list and count
-count = 0
+count = 1
 nums = []
+
 # Input a number until the input is invalid
 while True:
     try:
@@ -12,6 +13,11 @@ while True:
         count += 1
 
     # Print Unique if it don't have duplicate
+        if number not in nums:
+            print ("Unique")
+    
     # Print Duplicate if it is
+        else:
+            print("Duplicate")
     except ValueError:
         break
