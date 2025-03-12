@@ -5,7 +5,7 @@ num1 = float(input("Enter the 1st number: "))
 num2 = float(input("Enter the 2nd number: "))
 
 # Determine the bigger number
-bigger = max(num1, num2)
+bigger_num = max(num1, num2)
 
 # Print the bigger number
-print(f"{bigger} is the bigger number.")
+print(f"{bigger_num} is the bigger number.")
