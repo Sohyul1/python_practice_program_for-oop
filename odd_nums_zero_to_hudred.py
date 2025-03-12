@@ -8,7 +8,9 @@ count = 0
 
 # Make the while loop
 while count < 100:
-
     # Filter out the odd numbers
-    # Append odd numbers in the list
-    # Print the odd numbers
+    if count % 2 == 1:
+        # Append odd numbers in the list
+        odd_list.append(count)
+    count += 1
+ # Print the odd numbers
