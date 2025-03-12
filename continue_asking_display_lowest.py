@@ -14,12 +14,12 @@ while True:
         
         # Append the numbers in the list
         num_list.append(number)
+        
+        # Print the lowest
+        if num_list:
+            num_list.sort()
+        print(f"The lowest is currently {num_list[0]}.\n")
     
     except ValueError:
+        print("Bye!")
         break
-
-# Print the lowest
-if num_list.sort:
-    print(num_list[0])
-else:
-    print("Bye!")
