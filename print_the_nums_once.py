@@ -9,16 +9,14 @@ for ask in range(1, 11):
     # Append inputs into the list
     num_list.append(num)
 
-# Make another list for non-unique numbers
-non_uniq = []
-
 # Make another list for unique numbers
 uniq = []
 
 # Filter out the unique and not unique
 for numbers in num_list:
-    if num_list.count(numbers) == 1:
+    if numbers not in uniq:
         uniq.append(numbers)
+<<<<<<< HEAD:print_the_nums_once.py
 <<<<<<< HEAD:print_the_nums_once.py
         
 # Print the numbers
@@ -29,3 +27,8 @@ for numbers in num_list:
 # Print the numbers
 print(uniq, non_uniq)
 >>>>>>> 00d93a6 (made the non uniq part and print the output, non uniq part still need adjustments):print_all_nums_once.py
+=======
+
+# Print the numbers
+print(uniq)
+>>>>>>> 395ef10 (removed the non uniq and then modified the for loop to append every number only once in the uniq list, then print):print_all_nums_once.py
