@@ -11,6 +11,9 @@ while count < 10:
     rest_nums = float(input(f"Enter number {count + 1}: "))
     count += 1
 
-# Get the difference
+    # Get the difference
+    num1 -= rest_nums
+
 # Print the difference
+print(num1)
 
