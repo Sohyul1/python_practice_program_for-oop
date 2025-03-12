@@ -4,8 +4,8 @@
 num1 = float(input("Enter the dividend: "))
 num2 = float(input("Enter the divisor: "))
 
-# Get the quotient
-quotient = int(num1 / num2) # Convert the quotient into integer
+# Get the quotient (use floor division //)
+quotient = num1 // num2
 
 # Print the quotient
 print(quotient)
