@@ -2,12 +2,13 @@
 
 # Make an empty list
 num_list = []
-
+count = 1
 # Ask for user input
 while True:
     try:
-        num = float(input("Enter number: "))
+        num = float(input(f"Enter number {count}: "))
         num_list.append(num)
+        count += 1
         
     except ValueError:
         break
