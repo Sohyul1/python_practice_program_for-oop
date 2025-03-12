@@ -16,19 +16,9 @@ uniq = []
 for numbers in num_list:
     if numbers not in uniq:
         uniq.append(numbers)
-<<<<<<< HEAD:print_the_nums_once.py
-<<<<<<< HEAD:print_the_nums_once.py
-        
-# Print the numbers
-=======
-    else:
-        non_uniq.append(numbers)
 
 # Print the numbers
-print(uniq, non_uniq)
->>>>>>> 00d93a6 (made the non uniq part and print the output, non uniq part still need adjustments):print_all_nums_once.py
-=======
+print(f"{uniq} are the unique numbers")
 
-# Print the numbers
-print(uniq)
->>>>>>> 395ef10 (removed the non uniq and then modified the for loop to append every number only once in the uniq list, then print):print_all_nums_once.py
+# Sir idk kung ano napindot ko kanina kung bakit naging ganon yung na push ko po
+# This last push po ay I removed the non uniq list and then modifief the for loop so that once lang ma aappend yung nums, and then print
