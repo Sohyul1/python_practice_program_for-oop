@@ -4,7 +4,7 @@
 num_list = []
 
 # Ask for user input
-for ask in range(1,11):
+for ask in range(1, 11):
     num = float(input(f"Enter number {ask}: "))
     num_list.append(num)
 
