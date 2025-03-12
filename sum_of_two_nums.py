@@ -6,4 +6,9 @@ num2 = float(input("Enter the 2nd number: "))
 
 
 # Get the sum
+total = num2 + num1
+
+
 # Print the total/sum
+print(total)
+
