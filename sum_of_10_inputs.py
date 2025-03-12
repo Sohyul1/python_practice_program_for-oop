@@ -11,5 +11,6 @@ for ask in range (1,11):
 
 # Get the sum of all of them
 total = sum(nums_storage)
+
 # Print the sum 
 print(total)
