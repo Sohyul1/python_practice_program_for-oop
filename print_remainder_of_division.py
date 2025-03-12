@@ -5,5 +5,7 @@ num1 = float(input("Enter the dividend: "))
 num2 = float(input("Enter the divisor: "))
 
 # Get the reaminder (use %)
+quotient_remdr = num1 % num2
 
 # Print the reaminder
+print(quotient_remdr)
