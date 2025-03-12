@@ -11,5 +11,10 @@ while True:
     try:
         number = float(input(f"Enter Number {count}: "))
         count += 1
-# Append the numbers in the list
+        
+        # Append the numbers in the list
+        num_list.append(number)
+    except ValueError:
+        break
+
 # Print the lowest
