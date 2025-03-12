@@ -12,15 +12,21 @@ while True:
         # Make a dictionary
         num_counts = {}
         
-        # Get the most duplicated number
+        # Count how many times the number appeared
         for nums in num_list:
             if num in num_counts:
                num_counts[num] += 1
             else:
                 num_counts[num] = 1
-
+        
+        # Get the most duplicated number
+        max_count = 0
+        for num in num_counts:
+                if num_counts[num] > max_count:
+                    most_dupli = num
+                    max_count = num_counts[num]
                 # Print the number
-                print(most_dupli)
+                print(f"{most_dupli} occured {num_counts}")
     
     except ValueError:
         break
