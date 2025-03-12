@@ -8,11 +8,16 @@ while True:
     try:
         num = float(input("Enter number: "))
         num_list.append(num)
-
-
+        
+        # Get the most duplicated number
+        for nums in num_list:
+            if num_list:
+                most_dupli = max(num_list)
+                # Print the number
+                print(most_dupli)
+    
     except ValueError:
         break
 
-# Get the most duplicated number
 
-# Print the number
+
