@@ -5,5 +5,9 @@ num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
 # Print numbers between the two numbers
-for number in range(num1 + 1, num2):
-    print(number)
+if num1 < num2:
+    for number in range(num1 + 1, num2):
+        print(number)
+else:
+    for number in range(num2 + 1, num1):
+        print(number)
