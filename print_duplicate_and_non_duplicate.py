@@ -22,4 +22,5 @@ while True:
             print("Duplicate")
             
     except ValueError:
+        print("Invalid input, good bye!")
         break
