@@ -7,7 +7,7 @@ count = 1
 num_list = []
 
 # Ask user for input (break if input is invalid)
-while True;
+while True:
     try:
         number = float(input(f"Enter Number {count}: "))
         count += 1
@@ -15,4 +15,12 @@ while True;
         # Append the numbers in the list
         num_list.append(number)
 
-# Print the sorted list
+        # Sort the list
+        num_list.sort()
+        
+        # Print the sorted list
+        print(num_list)
+     
+    except ValueError:
+        print("Bye!")
+        break
