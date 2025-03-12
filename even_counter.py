@@ -11,4 +11,7 @@ for ask in range(1, 11):
         even_list.append(answer)
         
 # Get the total number of even
+total = len(even_list)
+
 # Print the total
+print(total)
