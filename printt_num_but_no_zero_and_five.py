@@ -3,6 +3,6 @@
 # Make a for loop
 for num in range(0,101):
     # Filter out the number ending with 0 and 5
-    if num % 10 != 0 and num % 5 != 0:
+    if num % 5 != 0:
         # Print the rest of the numbers
         print(num)
