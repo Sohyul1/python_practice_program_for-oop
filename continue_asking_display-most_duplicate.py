@@ -9,27 +9,29 @@ while True:
         num = float(input("Enter number: "))
         num_list.append(num)
         
-        # Make a dictionary
-        num_counts = {}
-        
-        # Count how many times the number appeared
-        for nums in num_list:
-            if num in num_counts:
-               num_counts[num] += 1
-            else:
-                num_counts[num] = 1
-        
-        # Get the most duplicated number
-        max_count = 0
-        for num in num_counts:
-                if num_counts[num] > max_count:
-                    most_dupli = num
-                    max_count = num_counts[num]
-                # Print the number
-                print(f"{most_dupli} occured {num_counts}")
-    
     except ValueError:
         break
+
+# Make a dictionary
+num_counts = {}
+        
+# Count how many times the number appeared
+for nums in num_list:
+    if nums in num_counts:
+        num_counts[nums] += 1
+    else:
+        num_counts[nums] = 1
+        
+# Get the most duplicated number
+max_count = 0
+most_dupli = None
+for nums in num_counts:
+        if num_counts[nums] > max_count:
+            most_dupli = nums
+            max_count = num_counts[nums]
+
+# Print the number
+print(f"{most_dupli} occured {max_count} times.")
 
 
 
