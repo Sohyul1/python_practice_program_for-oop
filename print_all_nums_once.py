@@ -10,6 +10,14 @@ for ask in range(1, 11):
     num_list.append(num)
 
 # Make another list for non-unique numbers
+non_uniq = []
+
 # Make another list for unique numbers
+uniq = []
+
 # Filter out the unique and not unique
+for numbers in num_list:
+    if num_list.count(numbers) == 1:
+        uniq.append(numbers)
+        
 # Print the numbers
