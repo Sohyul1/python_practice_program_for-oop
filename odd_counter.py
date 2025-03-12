@@ -5,7 +5,11 @@ odd_list = []
 
 # Ask for user input
 for ask in range (1,11):
-    ans = float(input(f"Enter number{ask}:"))
+    ans = float(input(f"Enter number {ask}:"))
+    # Filter out the odd numbers 
+    if ans % 2 == 1:
+        # Append to the list if odd
+        odd_list.append(ans)
 
-# Filter out the odd numbers 
 # Print the odd nums 
+print(odd_list)
