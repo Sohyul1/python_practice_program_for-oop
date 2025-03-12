@@ -14,13 +14,10 @@ while True:
         
         # Append the numbers in the list
         num_list.append(number)
-
         # Sort the list
-        num_list.sort()
-        
         # Print the sorted list
-        print(num_list)
+        
      
     except ValueError:
-        print("Bye!")
         break
+    
