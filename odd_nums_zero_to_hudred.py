@@ -4,13 +4,16 @@
 odd_list = []
 
 # Make a counter
-count = 0
+count = 1
 
 # Make the while loop
-while count < 100:
+while count <= 100:
     # Filter out the odd numbers
     if count % 2 == 1:
         # Append odd numbers in the list
         odd_list.append(count)
+    
     count += 1
- # Print the odd numbers
+
+# Print the odd numbers
+print(odd_list)
