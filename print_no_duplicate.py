@@ -14,7 +14,8 @@ unique_list = []
 
 # Filter out numbers that appear only once 
 for u_nums in num_list:
-    if num_list.count(u_nums)== 1:
+    if num_list.count(u_nums) == 1:
         unique_list.append(u_nums)
-    # Print the numbers that appear only once
-        print(unique_list)
+
+# Print the numbers that appear only once
+print(unique_list)
