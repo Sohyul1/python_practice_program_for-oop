@@ -15,9 +15,11 @@ while True:
     # Print Unique if it don't have duplicate
         if number not in nums:
             print ("Unique")
+            nums.append(number)
     
-    # Print Duplicate if it is
+    # Print Duplicate if has been typed
         else:
             print("Duplicate")
+            
     except ValueError:
         break
