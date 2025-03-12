@@ -5,7 +5,7 @@ nums_storage = []
 
 # Ask for user input
 for ask in range (1,11):
-    ans = float(input(f"Enter number{ask}:"))
+    ans = float(input(f"Enter number {ask}:"))
     # Add the inputs in the empty list
     nums_storage.append(ans)
 
