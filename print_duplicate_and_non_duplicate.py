@@ -10,5 +10,8 @@ while True:
     try:
         number = float(input(f"Enter Number {count}: "))
         count += 1
-# Print Unique if it don't have duplicate
-# Print Duplicate if it is
+
+    # Print Unique if it don't have duplicate
+    # Print Duplicate if it is
+    except ValueError:
+        break
