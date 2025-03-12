@@ -5,4 +5,7 @@ num1 = float(input("Enter the 1st number: "))
 num2 = float(input("Enter the 2nd number: "))
 
 # Get the product
+product = num1 * num2
+
 # Print the product
+print(product)
