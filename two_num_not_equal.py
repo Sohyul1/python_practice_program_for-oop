@@ -4,6 +4,7 @@
 num1 = float(input("Enter the 1st number: "))
 num2 = float(input("Enter the 2nd number: "))
 
-
 # Determine if equal or not
-# Print the output
+if num1 != num2:
+    # Print the output
+    print("Not Equal")
