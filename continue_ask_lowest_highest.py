@@ -18,10 +18,9 @@ while True:
         # Sort the list
         num_list.sort()
 
+    except ValueError:
         # Print the sorted list
         print(num_list)
-    
-    except ValueError:
         print("Bye!")
         break
       
