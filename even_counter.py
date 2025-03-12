@@ -3,10 +3,12 @@
 # Make an empty list
 even_list = []
 
-# ASk for user input
+# Ask for user input
 for ask in range(1, 11):
     answer = float(input(f"Enter number {ask}: "))
-
-# Filter out the even nums
-# Get the taotal number of even
+    # Filter out the even nums
+    if answer % 2 == 0:
+        even_list.append(answer)
+        
+# Get the total number of even
 # Print the total
