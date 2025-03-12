@@ -13,7 +13,8 @@ for ask in range(1, 11):
 unique_list = []
 
 # Filter out numbers that appear only once 
-if num_list.count(nums)== 1:
-    unique_list.append(nums)
+for u_nums in num_list:
+    if num_list.count(u_nums)== 1:
+        unique_list.append(u_nums)
     # Print the numbers that appear only once
-    print(unique_list)
+        print(unique_list)
