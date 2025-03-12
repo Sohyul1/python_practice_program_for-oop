@@ -11,5 +11,8 @@ for ask in range (1,11):
         # Append to the list if odd
         odd_list.append(ans)
 
+# Get the total numbers of odd
+total = len(odd_list)
+
 # Print the odd nums 
-print(odd_list)
+print(total)
