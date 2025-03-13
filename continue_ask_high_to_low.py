@@ -15,6 +15,9 @@ while True:
 
     except ValueError:
         break
-# Use sort to arrange the numbers
 
+# Use sort to arrange the 
+arranged = num_list.sort()
+for num in num_list:
 # Print arranged numbers
+    print(num)
