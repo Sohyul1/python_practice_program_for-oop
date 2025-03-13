@@ -12,7 +12,6 @@ while count <= 100:
     if count % 2 == 1:
         # Append odd numbers in the list
         odd_list.append(count)
-    
     count += 1
 
 # Print the odd numbers
