@@ -15,9 +15,7 @@ while True:
         break
 
 # Get the average
-total_amount = sum(num_list)
-total_numbers = len(num_list)
-average = total_amount / total_numbers
+average = sum(num_list) / len(num_list)
 
 # Print the average 
-print(average)
+print(f"{average:.2f}")  
