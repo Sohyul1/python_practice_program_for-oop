@@ -8,10 +8,12 @@ while True:
     try:
         num = float(input(f"Enter number {count}: "))
         count += 1
-
+        num_list.append(num)
     except ValueError:
         break
 
 # Determine the highest number 
+highest_num = max(num_list)
 
 # Print the highest number
+print(highest_num)
