@@ -3,6 +3,7 @@
 # Make an empty list
 num_list = []
 count = 1
+
 # Ask for user input
 while True:
     try:
@@ -16,4 +17,7 @@ while True:
 highest_num = max(num_list)
 
 # Print the highest number
-print(highest_num)
+if num_list:
+    print(highest_num)
+else:
+    print("No valid inputs.")
