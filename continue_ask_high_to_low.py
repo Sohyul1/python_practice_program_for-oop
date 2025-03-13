@@ -17,7 +17,8 @@ while True:
         break
 
 # Use sort to arrange the 
-arranged = num_list.sort()
-for num in num_list:
+num_list.sort(reverse=True)
+
 # Print arranged numbers
-    print(num)
+for nums in num_list:
+    print(nums)
