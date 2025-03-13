@@ -7,11 +7,17 @@ count = 1
 # Ask for user input
 while True:
     try:
-        num = float(input(f"Enter number {count}; "))
+        num = float(input(f"Enter number {count}: "))
         count += 1
+        num_list.append(num)
+    
     except ValueError:
         break
 
 # Get the average
+total_amount = sum(num_list)
+total_numbers = len(num_list)
+average = total_amount / total_numbers
 
 # Print the average 
+print(average)
